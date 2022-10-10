@@ -1,5 +1,4 @@
 FROM node:16-alpine AS builder
-USER node
 RUN mkdir -p /app
 WORKDIR /app
 COPY ./package.json ./
